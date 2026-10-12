@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "runesmith.shell",
+  "name": "Shell and Tools",
+  "version": "0.1.0",
+  "summary": "Highlighting, comments and brackets for Shell Script, PowerShell, Batch, Makefile, Dockerfile and Log.",
+  "authors": [
+    "Dylan de Beer"
+  ],
+  "license": "Apache-2.0",
+  "repository": "https://github.com/RunesmithHub/plugin-shell",
+  "runesmithApi": "^0.2.0",
+  "projects": {
+    "contracts": "src/Runesmith.ShellScripts.Contracts/Runesmith.ShellScripts.Contracts.csproj",
+    "implementation": "src/Runesmith.ShellScripts/Runesmith.ShellScripts.csproj"
+  },
+  "icon": "icon.png",
+  "categories": [
+    "Languages"
+  ],
+  "keywords": [
+    "sh",
+    "bash",
+    "zsh",
+    "ps1",
+    "bat",
+    "cmd",
+    "makefile",
+    "mk",
+    "dockerfile",
+    "log"
+  ]
+}
